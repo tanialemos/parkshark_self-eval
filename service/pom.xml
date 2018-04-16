@@ -10,9 +10,18 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>be.lemos.parkshark</groupId>
     <artifactId>service</artifactId>
     <version>1.0</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>be.lemos.parkshark</groupId>
+            <artifactId>domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>be.lemos.parkshark</groupId>
+            <artifactId>utilities</artifactId>
+        </dependency>
+    </dependencies>
     
 </project>

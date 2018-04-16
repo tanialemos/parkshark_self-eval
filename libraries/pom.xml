@@ -10,18 +10,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>jar</artifactId>
+    <artifactId>libraries</artifactId>
     <version>1.0</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>be.lemos.parkshark</groupId>
-            <artifactId>api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>be.lemos.parkshark</groupId>
-            <artifactId>utilities</artifactId>
-        </dependency>
-
-    </dependencies>
+    
 </project>
