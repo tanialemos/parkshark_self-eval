@@ -10,7 +10,7 @@
     <version>1.0</version>
 
     <modules>
-        <module>api</module>
+        <module>api</module> 
         <module>domain</module>
         <module>service</module>
         <module>jar</module>
