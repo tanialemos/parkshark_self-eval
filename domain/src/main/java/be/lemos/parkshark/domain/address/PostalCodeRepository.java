@@ -12,4 +12,9 @@ public class PostalCodeRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
+    public PostalCode savePostalCode(PostalCode postalCode){
+        entityManager.persist(postalCode);
+        return postalCode;
+    }
+
 }
