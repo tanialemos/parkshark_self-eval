@@ -1,8 +1,19 @@
 package be.lemos.parkshark.domain.address;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "POSTALCODE")
 public class PostalCode {
 
+    @Id
+    @Column(name = "POSTALCODE")
     private int postalCode;
+
+    @Column(name = "POSTALCODE_LABEL")
     private String postalCodeLabel;
 
     public PostalCode() {

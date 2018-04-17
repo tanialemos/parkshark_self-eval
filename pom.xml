@@ -15,7 +15,7 @@
         <module>service</module>
         <module>jar</module>
         <module>utilities</module>
-        <module>libraries</module>
+        <module>libraries</module> <!--used only for the sake of storing the oracle jdbc file-->
     </modules>
 
     <parent>
@@ -36,12 +36,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
-                <version>${project.parent.version}</version>
+                <version>1.5.9.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
-                <version>${project.parent.version}</version>
+                <version>1.5.9.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
